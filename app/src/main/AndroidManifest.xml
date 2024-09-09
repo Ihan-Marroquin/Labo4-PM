@@ -13,6 +13,26 @@
         android:theme="@style/Theme.Laboratorio4"
         tools:targetApi="31">
         <activity
+            android:name=".InfoCampus"
+            android:exported="false"
+            android:label="@string/title_activity_info_campus"
+            android:theme="@style/Theme.Laboratorio4" />
+        <activity
+            android:name=".EmergencyProf"
+            android:exported="false"
+            android:label="@string/title_activity_emergency_prof"
+            android:theme="@style/Theme.Laboratorio4" />
+        <activity
+            android:name=".ConfigProf"
+            android:exported="false"
+            android:label="@string/title_activity_config_prof"
+            android:theme="@style/Theme.Laboratorio4" />
+        <activity
+            android:name=".MyProf"
+            android:exported="false"
+            android:label="@string/title_activity_my_prof"
+            android:theme="@style/Theme.Laboratorio4" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
